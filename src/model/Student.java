@@ -26,6 +26,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{id=" + id + ", name='" + name + "', gpa=" + gpa + "}";
+        return "Student [id=" + id + ", name=" + name + ", gpa=" + gpa + "]";
     }
 }

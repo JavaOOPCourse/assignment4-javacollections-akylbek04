@@ -25,6 +25,6 @@ public class Issue implements Comparable<Issue> {
 
     @Override
     public String toString() {
-        return "Issue{description='" + description + "', urgencyLevel=" + urgencyLevel + "}";
+        return "Issue [description=" + description + ", urgencyLevel=" + urgencyLevel + "]";
     }
 }

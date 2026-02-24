@@ -17,10 +17,9 @@ public class StudentService {
     }
 
     public void removeLowGPA() {
-        Iterator<Student> iterator = students.iterator();
-        while (iterator.hasNext()) {
-            if (iterator.next().getGpa() < 2.0) {
-                iterator.remove();
+        for (Student student : students) {
+            if (student.getGpa() < 2.0) {
+                students.remove(student);
             }
         }
     }
